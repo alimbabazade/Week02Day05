@@ -1,0 +1,968 @@
+
+
+html, body {
+
+	margin: 0px;
+	padding: 0px;
+	font-family:  sans-serif;
+
+
+}
+
+
+/* birinci sekil olan hisse. Basliq, buton ve s... */
+
+.main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+.step img{
+
+	width: 100%;
+	position: relative;
+	margin-bottom: -4px;
+
+}
+
+.main .step .text1{
+	position: absolute;
+	top: 0px;
+	font-size: 37px;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+	margin-left: 37.3%;
+	margin-top: 17%;
+	color: #333A3B;
+}
+
+.main .step .text2 {
+	position: absolute;
+	top: 0px;
+	font-size: 13px;
+	color: grey;
+	margin-left: 34%;
+	margin-top: 20.7%;
+	letter-spacing: 2px;
+
+}
+
+
+.main .step button {
+	background-color: #32CCBE;
+	position: absolute;
+	top: 0px;
+	border-radius: 5px;
+	color: white;
+	padding: 20px 30px;
+	border: none;
+	border-bottom: 3px solid #2EBAAD;
+	margin-left: 41%;
+	margin-top: 25%;
+	transition: all 0.5s ease;
+
+}
+
+.main .step button:hover {
+	background-color: #38E5D5;
+}
+
+
+/* birinci sekil olan hisse. Basliq, buton ve s... */
+
+
+/*butun p ler ucun */
+#allMainTexts {
+	text-transform: uppercase;
+	letter-spacing:  2px;
+	color: #333A3B;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+#allTexts {
+	font-size: 11px;
+	color: grey;
+	letter-spacing: 1px;
+	line-height: 25px;
+	text-align: center;
+}
+/*butun p ler ucun */
+
+
+
+/* ikinci bolme */
+.step2 {
+	width: 100%;
+	background-color: #E4EDE7;
+	padding: 100px 0px;
+}
+
+.step2 .step2_1 {
+	width: 750px ;
+	margin: 0 auto;
+	
+}
+
+.step2 .step2_1 .foto {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.step2 .step2_1 .second a{
+	text-decoration: none;
+	color: black;
+	transition: all 0.4s ease;
+}
+
+.step2 .step2_1 .second a:hover {
+	color:#32CCBE;
+}
+/* ikinci bolme */
+
+
+
+/* Step 3 - Ucuncu hisse */
+
+.step3 {
+	margin-bottom:110px;
+	background-color: white;
+}
+
+.step3 .firstp {
+	margin-top: 100px;
+
+}
+
+.step3 .foto1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.step3 .statement {
+	width: 1146px;
+	background-color: white;
+	margin: 0 auto;
+
+
+}
+
+
+.step3 .statement .border {
+	width: 340px;
+	height: 425px;
+	border: 1px solid white;
+	margin: 0px 20px;
+	float: left;
+	
+}
+
+.step3 .statement .clear {
+	clear: both;
+}
+
+
+/* Dairelerin yaradilmasi */
+.step3 .statement .border .circle {
+
+	width: 177px;
+	height: 177px;
+	border-radius: 177px;
+	background-color: #32CCBE;
+	margin: 0 auto;
+	position: relative;
+
+}
+/* Dairelerin yaradilmasi */
+
+/*dairlerin icindeki fiqurlarin yaradilmasi */
+.step3 .statement .border .circle .comp {
+	 width: 40px;
+	 height: 25px;
+	 border: 4px solid white;
+	 border-radius: 5px;
+	 position: absolute;
+	 top: 64px;
+	 left: 62px;
+	 box-shadow: inset 1px 1px 10px black;
+	 box-shadow: 1px 1px 8px grey;
+}
+
+.step3 .statement .border .circle .keyboard {
+	width: 60px;
+	height: 1px;
+	border: 4px solid white;
+	border-radius: 5px;
+	position: absolute;
+	top: 100px;
+	left: 52px;
+	box-shadow: 1px 1px 10px grey;
+}
+
+
+.step3 .statement .border .circle .kub1 {
+	width: 20px;
+	height: 20px;
+	border: 4px solid white;
+	border-top: transparent;
+	border-right: transparent;
+	border-radius: 1px;
+	position: absolute;
+	top:76px;
+	left: 58px;
+	transform: rotate(45deg);
+
+}
+
+.step3 .statement .border .circle .kub2 {
+	width: 20px;
+	height: 20px;
+	border: 4px solid white;
+	border-bottom: transparent;
+	border-left: transparent;
+	border-radius: 1px;
+	position: absolute;
+	top: 76px;
+	left: 99px;
+	transform: rotate(45deg);
+
+}
+
+
+.step3 .statement .border .circle .slash {
+	color: white;
+	position: absolute;
+	top: 54px;
+	left: 80px;
+	font-size: 55px;
+
+}
+
+
+.step3 .statement .border .circle .k1 {
+	width: 30px;
+	height: 30px;
+	border: 4px solid white;
+	position: absolute;
+	top: 59px;
+	left: 56px;
+	border-top-left-radius:30px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: transparent;
+	border-bottom: transparent;
+
+}
+
+.step3 .statement .border .circle .k2 {
+	width: 30px;
+	height: 30px;
+	border: 4px solid white;
+	position: absolute;
+	top: 59px;
+	left: 89px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: transparent;
+	border-bottom: transparent;
+
+}
+
+.step3 .statement .border .circle .k3 {
+	width: 30px;
+	height: 45px;
+	border: 3px solid white;
+	transform: rotate(-40deg);
+	position: absolute;
+	top: 71px;
+	left: 67px;
+	border-radius: 10px;
+	border-top: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+
+}
+
+.step3 .statement .border .circle .k4 {
+
+	width: 30px;
+	height: 45px;
+	border: 3px solid white;
+	transform: rotate(40deg);
+	position: absolute;
+	top: 71px;
+	left: 79px;
+	border-radius: 10px;
+	border-top: transparent;
+	border-left: transparent;
+	border-bottom: transparent;
+
+}
+/*dairlerin icindeki fiqurlarin yaradilmasi */
+
+
+
+
+
+.step3 .statement .border .line {
+	width: 40px;
+	height: 4px;
+	background-color: #32CCBE;
+	margin: 0 auto;
+}
+
+.step3 .statement .border .borderP1 {
+	margin-top: 40px;
+	margin-bottom: 27px;
+
+}
+
+.step3 .statement .border .borderP2 {
+	margin-top: 27px;
+}
+/* Step 3 - Ucuncu hisse */
+
+
+
+/* Step4 - Dorduncu hisse */
+.step4 {
+	width: 100%;
+	background-color: white;
+	position: relative;
+
+
+}
+
+.step4 .im {
+	margin-left: 140px;
+	
+}
+
+.step4 .right {
+	width: 780px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top:0px;
+	right: 4.4%;
+	text-align: center;
+
+}
+
+
+.step4 .right .right1 {
+	margin-top: 125px;
+}
+
+.step4 .right .right2 {
+	padding: 0px 160px;
+}
+
+.step4 .right .cyc {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.step4 .right .cyc .cyc1{
+
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	float: left;
+	margin-right: 12px;
+}
+
+
+.step4 .right .cyc .cyc2 {
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	background-color: #333A3B;
+	float: left;
+
+}
+
+
+.step4 .right .cyc {
+	clear: both;
+
+}
+/* Step4 - Dorduncu hisse */
+
+
+/*Step5 - Besinci hisse */
+
+
+.step5 {
+	background-image: url(img/plants-bg.jpg);
+	background-attachment: fixed;
+	background-color: #333A3B;
+	background-position: center center;
+}
+
+
+.step5 .backtext {
+	width: 100%;
+
+
+}
+
+.step5 .backtext .back1 {
+	text-transform: uppercase;
+	letter-spacing:  4px;
+	color: white;
+	font-size: 38px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.step5 .backtext .back2 {
+	text-transform: uppercase;
+	letter-spacing:  4px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -18px;
+	padding-bottom: 25px;
+
+}
+
+/*dairenin hazirlanmasi */
+.step5 .backCirc {
+	width: 40px;
+	margin:0 auto;
+	padding-bottom: 70px;
+	position: relative;
+}
+
+.step5 .backCircle {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #32CCBE;
+}
+/*dairenin hazirlanmasi */
+
+
+.step5 .backCircle .circInKub{
+	width: 8px;
+	height: 8px;
+	border:3px solid white;
+	border-left: transparent;
+	border-top: transparent;
+	border-radius: 2px;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+/*Step5 - Besinci hisse */
+
+
+
+/*Step6 - Altinci hisse */
+/*Slider hissesinin yaradilmasi*/
+
+.step6 {
+	text-align: center;
+	padding-bottom: 105px;
+}
+
+.step6 .slider {
+	width: 1184px;
+	margin: 0 auto;
+	margin-top: 90px;
+	background-color: white;
+	margin-bottom: 30px;
+
+
+
+}
+
+.step6 .slider .borderSlider {
+	width: 360px;
+	height: 430px;
+	background-color: white;
+	border: 1px solid white;
+	margin: 0px 16px;
+	float: left;
+
+}
+
+.step6 .slider .borderSlider img {
+	width: 100%;
+
+}
+
+.step6 .slider .clear {
+	clear: both;
+}
+
+.step6 .slider .borderSlider .sliderText1 {
+	margin-top: 55px;
+	margin-bottom: 25px;
+
+}
+
+.step6 .slider .borderSlider .lineslider {
+	width: 35px;
+	height: 4px;
+	background-color: #32CCBE;
+	margin: 0 auto;
+}
+
+.step6 .slider .borderSlider .sliderText2 {
+	margin-top: 25px;
+	padding: 0px 5px;
+
+}
+/*Slider hissesinin yaradilmasi*/
+
+/*Sliderden sonra gelen daireler */
+.step6 .cyc {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.step6 .cyc .cyc1{
+
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	float: left;
+	margin-right: 12px;
+}
+
+
+.step6 .cyc .cyc2 {
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	background-color: #333A3B;
+	float: left;
+
+}
+
+
+.step6 .cyc {
+	clear: both;
+}
+/*Sliderden sonra gelen daireler */
+/*Step6 - Altinci hisse */
+
+
+
+
+/* Step7 - Yeddinci hisse */
+.step7 {
+	width: 100%;
+	background-color: #081219;
+	padding-top: 70px;
+}
+
+.step7 .step7_1 {
+	width: 278px;
+	margin: 0 auto;
+	
+}
+
+.step7 .step7_1 button {
+	width: 277px;
+	height: 72px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	border: 1px solid white;
+	color:white;
+	background-color: #081219;
+	transition: all 0.4s ease;
+	margin-bottom: 70px;
+}
+
+.step7 .step7_1 button:hover {
+	border-color: #32CCBE;
+	color:#32CCBE;
+}
+/* Step7 - Yeddinci hisse */
+
+
+
+
+/*Step8 - Sekkizinci hissenin yaradilmasi*/
+.step8 {
+	margin-bottom: 110px;
+	background-color: white;
+}
+
+.step8 .firstP {
+	margin-top: 100px;
+
+}
+
+.step8 .foto2 {
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+
+.step8 .state {
+	width: 1150px;
+	background-color: white;
+	margin: 0 auto;
+
+
+}
+
+.step8 .state .border .borderImg {
+	width: 203px;
+	margin: 0 auto;
+}
+
+
+.step8 .state .border {
+	width: 340px;
+	height: 520px;
+	border: 1px solid white;
+	margin: 0px 20px;
+	float: left;
+	
+}
+
+.step8 .state .clear {
+	clear: both;
+}
+
+
+.step8 .state .border .line {
+	width: 40px;
+	height: 4px;
+	background-color: #32CCBE;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+
+.step8 .state .border .borderP1 {
+	margin-top: 50px;
+	margin-bottom: 27px;
+
+}
+
+.step8 .state .border .borderP2 {
+	margin-bottom: 27px;
+}
+
+.step8 .state .border .borderCyc {
+	width: 165px;
+	margin: 0 auto;
+}
+
+
+.step8 .state .border .borderCyc .borderCyc1 {
+
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #081219;
+	margin: 0px 7.5px;
+	float:left;
+}
+
+
+.step8 .state .border .borderCyc .clear {
+	clear: both;
+}
+
+
+/*kicik dairelerin hazirlanmasi */
+.step8 .cyc {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.step8 .cyc .cyc1{
+
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	float: left;
+	margin-right: 12px;
+}
+
+
+.step8 .cyc .cyc2 {
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 3px solid lightgrey;
+	background-color: #333A3B;
+	float: left;
+
+}
+
+
+.step8 .cyc {
+	clear: both;
+}
+/*kicik dairelerin hazirlanmasi */
+/*Step8 - Sekkizinci hissenin yaradilmasi*/
+
+
+
+
+/*Step 9 - 9-cu bolumun hazirlanmas */
+
+.step9 {
+	width: 100%;
+	background-image: url(img/keyboard-bg.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-color: #333A3B;
+}
+
+
+.step9 .step9_1 {
+	width: 440px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+	padding-bottom: 140px;
+
+}
+
+.step9 .step9_1 .search {	
+	width: 340px;
+	height: 60px;
+	border: 1px solid white;
+	text-indent: 15px;
+	background: none; 
+	color: white;
+
+}
+
+.step9 .step9_1 button {
+	width: 90px;
+	height: 62px;
+	border: 2px solid #32CCBE;
+	background-color: #2EBAAD;
+	opacity: 0.5;
+	transition: all 0.4s ease;
+
+}
+
+.step9 .step9_1 button:hover {
+	color:white;
+	background-color: #32CCBE;
+
+}
+
+.step9 .step9_1 button span {
+	color: white;
+
+}
+/*Step 9 - 9-cu bolumun hazirlanmasi */
+
+
+
+
+
+
+
+/*Step 10 - 10-cu bolumun hazirlanmasi */
+.step10 {
+	width: 100%;
+	background-color: #E4EDE7;
+	position: relative;
+
+}
+
+.step10 .cycle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #32CCBE;
+	position: absolute;
+	left: 48.4%;
+	top:-5%;
+	opacity:0.6;
+
+}
+
+.step10 .cycle .kub {
+	width: 12px;
+	height: 12px;
+	border: 3px solid white;
+	border-right: transparent;
+	border-bottom: transparent;
+	border-radius: 2px;
+	transform: rotate(45deg);
+	margin-top: 20px;
+	margin-left: 17px;
+
+}
+
+
+.step10 .step10_1 {
+	width: 1146px;
+	border: 1px solid none;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 95px;
+}
+
+
+.step10 .step10_1 .step10Paragraf {
+	
+}
+
+.step10 .step10_1 .mainBorder {
+	width: 1145px;
+	margin: 0 auto;
+}
+
+
+.step10 .step10_1 .mainBorder .borders {
+	width: 350px;
+	height: 200px;
+	background-color: white;
+	margin: 70px 15px 60px 15px;
+	float:left;
+
+}
+
+.step10 .step10_1 .mainBorder .clear {
+	clear: both;
+}
+
+.step10 .step10_1 .mainBorder .borders a{
+	text-decoration: none;
+	color: black;
+	transition: all 0.4s ease;
+
+}
+
+.step10 .step10_1 .mainBorder .borders a:hover {
+	color:#32CCBE;
+}
+
+
+.step10 .step10_1 .mainBorder .borders .line {
+	width: 40px;
+	height: 4px;
+	background-color: #32CCBE;
+	margin: 0 auto;
+	margin-bottom: 27px;
+
+
+}
+
+.step10 .step10_1 .borderCyc {
+	width: 165px;
+	margin: 0 auto;
+	padding-bottom: 95px;
+}
+
+
+.step10 .step10_1 .borderCyc .borderCyc1 {
+
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #081219;
+	margin: 0px 7.5px;
+	float:left;
+}
+
+
+.step10 .step10_1 .borderCyc .clear {
+	clear: both;
+}
+/*Step 10 - 10-cu bolumun hazirlanmasi */
+
+
+
+/*Step11 - 11-ci bolumun hazirlanmasi */
+
+
+.step11 {
+	width: 100%;
+	height: 125px;
+	background-color: #081219;
+}
+
+.step11 .left {
+	width:40%;
+	padding-top: 40px;
+	float:left;
+}
+
+.step11 .left a {
+	text-decoration: none;
+	color: grey;
+	transition: all 0.4s ease;
+
+}
+
+.step11 .left a:hover {
+
+	color:#32CCBE;
+
+}
+
+.step11 .right {
+	width: 52%;
+	padding-top: 40px;
+	float:right;
+}
+
+.step11 .right a{
+	text-decoration: none;
+	color: grey;
+	transition: all 0.4s ease;
+
+}
+
+
+.step11 .right a:hover {
+
+	color:#32CCBE;
+
+}
+
+.step11 .clear {
+	clear: both;
+}
+
+
+/*Step11 - 11-ci bolumun hazirlanmasi */
+
+
+
+
+/* Sukur Allaha */
+
+
+
+
+
+
+
+
+
+

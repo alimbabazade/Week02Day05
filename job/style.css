@@ -1,0 +1,61 @@
+div {
+
+	width: 150px;
+	height: 150px;
+	background-color: lightgreen;
+
+	
+}
+
+
+@keyframes mysys {
+
+	
+	
+	20% {
+		margin-top: 0px;
+		margin-left: 150px;
+		transform: rotate(45deg);
+
+
+	}
+
+	40% {
+		margin-top: 150px;
+		margin-left:150px;
+		transform: rotate(90deg);
+
+	}
+
+	60% {
+
+		margin-top: 150px;
+		margin-left: 300px;
+		transform: rotate(135deg);
+
+
+	}
+	
+	80% {
+		margin-top: 0px;
+		margin-left:300px;
+		transform: rotate(90deg);
+
+	}
+
+	100% {
+		margin-top: 0px;
+		margin-left: 0px;
+
+
+	}
+
+}
+
+
+div {
+	transition: all 1.8s ease;
+
+	animation: mysys 1.8s infinite 1s; 
+
+}

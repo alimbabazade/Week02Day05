@@ -1,0 +1,40 @@
+
+
+
+
+.h {
+	width: 100px;
+	
+	border-top: 20px solid transparent ;
+	border-left: 50px solid transparent;
+	border-right: 100px solid green;
+	border-bottom: 20px solid transparent;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+.s {
+
+	width: 300px;
+	border: 1px solid red;
+	float: left;
+	border-radius: 20px;
+	padding: 30px;
+
+	word-wrap: break-word;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+
+
+div {
+
+	width: 200px;
+	height: 200px;
+	background-color: red;
+		
+
+
+}
+
+
+@keyframes mm {
+
+	50%{
+		margin-left: 60px;
+
+
+
+	}
+
+
+	100%{
+		margin-right: 60px;
+
+
+	}
+}
+
+
+
+
+
+
+div:hover {
+	transition: all .5s ease;
+	
+
+animation: mm 1.5s 5 ;	
+
+
+
+
+}
